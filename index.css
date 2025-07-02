@@ -92,3 +92,9 @@ li {
 h1 {
   text-align: center;
 }
+footer {
+  background-color: pink;
+  border: solid;
+  flex: 1;
+  justify-content: flex-start;
+}
