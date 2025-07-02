@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  align-content: center;
+  display: inline-flex;
+}
+.items {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: left;
+  text-align: left;
+  justify-content: center;
+  display: inline-flex;
+}
+.testimonial {
+  background-color: rgb(251, 224, 228);
+  margin: 10px;
+  display: flex;
+}
+.special-1 {
+  display: flex;
+  align-items: flex-end;
+}
+.brand {
+  background-color: pink;
+  margin: 0;
+  padding: 10px;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 114, 137);
+}
+.options {
+  background-color: rgb(251, 224, 228);
+  margin: 0;
+  padding: 20px;
+}

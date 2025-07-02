@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="index.css" />
     <title>Fullstack Bakery</title>
   </head>
   <body>
     <header>
-      <p class="brand">Fullstack Bakery</p>
-      <nav>
-        <a href="#">Menus</a>
-        <a href="#">Catering</a>
-        <a href="#">Recipes</a>
-        <a href="#">About Us</a>
+      <p class="brand">
+        <img src="images/bread.png" alt="bread" width="50px" />Fullstack Bakery
+      </p>
+      <nav class="options">
+        <a href="#" style="padding: 40px">Menus</a>
+        <a href="#" style="padding: 40px">Catering</a>
+        <a href="#" style="padding: 40px">Recipes</a>
+        <a href="#" style="padding: 40px">About Us</a>
       </nav>
     </header>
     <main>
       <aside>
-        <ul>
-          <li>Bread</li>
-          <li>Cakes</li>
-          <li>Cookies</li>
-          <li>Muffins</li>
-          <li>Pies</li>
-        </ul>
+        <div class="container">
+          <div class="items" style="background-color: pink">
+            <a href="#">Bread</a>
+          </div>
+          <div class="items" style="background-color: pink">
+            <a href="#">Cakes</a>
+          </div>
+          <div class="items" style="background-color: pink">
+            <a href="#">Muffins</a>
+          </div>
+          <div class="items" style="background-color: pink">
+            <a href="#">Pies</a>
+          </div>
+        </div>
       </aside>
-      <article>
+      <article class="text">
         <h1>Best bakery in the business!</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
@@ -41,7 +51,7 @@
           <blockquote>
             "I got the most delicious loaf of bread from Fullstack Bakery!"
           </blockquote>
-          <figcaption>— Satisfied Customer</figcaption>
+          <figcaption class="special-1">— Satisfied Customer</figcaption>
         </figure>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
